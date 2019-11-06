@@ -1,0 +1,147 @@
+Logitech X52 blinking Lights
+
+TLDR at the bottom.
+
+
+This is not for:
+- if your joystick is off-center and does not calibrate properly anymore. You can solve this with magnets <https://riseofflight.com/forum/topic/48331-how-saitek-x52-neodymium-magnet-mod-fix-axis-drift-issues/>
+
+
+A couple of months ago my trusty x52 stick suddenly started to show blinking LED's and recalibration issues when using it.
+Suddenly the stick, Only the stick, loses connection and reconnects and recalibrates. This makes the LEDs blink and sets the centerpoint of the axis
+to where it was when it recalibrated upon loss of connection. Not so fun in VR when your plane suddenly pitches and rolls down when your stick is centered.
+The only 'short term solution' is to reconnect the PS2 cable on the stick unit. This works fine, but it gets slightly annoying over time.
+Now I've googled a lot over the last few months, only to find that this happens more and more.
+The elusive 'blinking blue LEDs on the Stick' that seems to happen to a LOT of X52 sticks apparently according to google.
+But so far, nobody has found a solid solution.
+The solution so far is: Use usb2, not 3 and preferably plug in into a self-powered USB hub. Especially if you have a z107 or z97 chipset. This is all google-able, But after doing all this my blinking leds still persisted.
+Also, Nobody specifically knows why or how it happens.
+
+Back then I decided to get a new X56, but returned that quickly (twice!), after having ghosting issues.
+Since I didn't want to spend a few hundred on another broken stick I decided to just pick it apart.
+Took it apart, but due to all the glue (Thanks Saitek!) I couldn't really see or do much.
+But all the connectors were fine. All the boards are fine. Everything looks how it should look.
+I beeped out all the connectors I could. Everything seems to work.
+PS2 Cable works too.
+Throttle does not show any signs of reconnecting/powerloss.
+So it must be somewhere else.
+
+The things I've tried:
+- Directly in USB2 on Motherboard
+- Directly in USB3 on Motherboard
+- Directly in Self-Powered USB2/3 Hub w/ ASMedia drivers.
+- Self-Powered Hub in USB2 on Motherboard
+- Self-Powered Hub in USB3 on Motherboard
+- Disabled the LED's on the HOTAS
+- Disabled the MFD light on the HOTAS
+- Disabled XHCI in BIOS
+- Tried all USB ports available. On the pc and on the hub.
+
+All to no avail. Nothing seemed to work, the stick keeps having the same issue as before.
+
+Slightly frustrated I threw it aside for a few weeks but one can't resist the urge to fly.
+Hooked it up, found that the problem was still there.
+Since I've experienced it so far in 2 games: IL-2 Sturmovik and Elite Dangerous, I decided to redo the joystick profiles.
+Figured got nothing left to lose on this anyway.
+I Took a look at the elite profile first, since this profile was adapted profile.
+Couldn't find a thing, obviously. Redid it anyway.
+Issue still persisted.
+Then checked for differences. Well.. a few obviously, but also not so apparent ones.
+The older profile was apparently for the X52Pro, and I have the X52.
+Now, this profile worked fine until a certain point and the stick started having issues.
+The new profile was for the X52, and had a different device ID in there.
+Well.. odd, but okay, so the new one is 'good' but the stick still blinks.
+Redid my IL-2 profile too. Issue persisted.
+Decided it's not worth anymore time and I can handle the reconnect of the ps2 cable.
+
+Skip a few weeks again.
+At this point there is a love/hate relationship between me and my x52.
+The stick still blinks/recalibrates while the throttle is fine.
+Nothing changed, except for the occasional period of 'hey, it just works'.
+Still I want to fix it, so I decided to take another look at everything.
+
+Took it apart, same results as before. Nothing weird/broken or causing any type of interference that might cause this as far as I could tell.
+Reinstalled the drivers with rebooting my system on every step. Made sure it was clean before I reinstalled it. Even did the registry fix Logitech provides for having an calibration problem.
+Again went through the process of setting up an Elite Dangerous profile, just to find the same result.
+It seemed to work for a while.. and then the sudden blink and there I was slightly drifting off again.
+So out of frustration and any hope in fixing this, in the process of giving up completely, I decided to run a profile named 'test'.
+I had no idea what it was, I just clicked it, hoped for the best.
+15 minutes later and it hasn't blinked once.
+Figured I might as well look at what is in the profile.
+An elite dangerous profile that was slightly different then what I currently used.
+So I made a copy, diffed them, found out a few keybinds were different and it was for the 'X52' and not the 'X52Pro'!
+I must have made this, then copied and renamed it but I never tried it, or just gave up at the time.
+Another 10 minutes have passed and it still hasn't blinked.
+So I boot up the game and fly around a bit. It still works fine. No blinking LEDs.
+I changed the keybinds in the Logitech profiler to what the other profile has, and it still worked-ish.
+
+Now I had weird issues before. Like my 8p hat on the throttle not properly responding/translating input. Even with macro commands.
+This seems to have been solved. Yet some buttons are not being translated properly and it's a bit wonky on how it works.
+But Okay.. I'm happy it works.
+
+A day later and it still works!
+So I figured.. time for more testing!
+At this point I have this weird idea what it might cause it/be.
+
+Made a copy and renamed it to what the other one is "X52EliteV330Beyond-Nov2019.pr0".
+Loaded it up into the Logitech software and did a save and push and pushed it to the X52.
+Seemed to work fine, until suddenly I loose control of my thrusters because the 8p hat on my throttle doesn't translate all of the inputs anymore.
+According to the Logitech software the input is being received fine, it just doesn't translate them towards the game anymore.
+So, I replug the controller, only to crash the profiler software and needed to reboot my whole pc to get it back again.
+Once back I reloaded the 'test.pr0' profile and everything was back to normal again. It all worked, no recalibrating stick.
+
+2 days later - now - I decided for some more testing.
+Booted up Elite. Choose my "X52EliteV330Beyond-Nov2019.pr0" (26 chars, with a -) profile in the Logitech Software and went off.
+Was fine for a while, but it started blinking again.
+I was expecting this, so I cleared the profile.
+Made a copy of it, renamed it to "X52EliteV330Beyond.pr0" (18 chars).
+Loaded it up. Had the same result. Recalibration and blinking LEDs. Making progress!
+So.. I shortened the name again "X52EDBeyondNov19.pr0" (16 chars).
+Cleared the other profile, loaded this one. Gave it a bit and same result.
+You see where this is going.. I got tired of this an just renamed it to something 'short' "EDX522019.pr0" (9 chars).
+Cleared, loaded, and now, hours later, it still hasn't blinked. My buttons still all work. It feels like a brand new stick.
+I then took the time to make the other profiles with different lengths. They all made the stick recalibrate.
+A alphanumerical string consisting out of 9 characters for the name of the profile, is what it apparently needs in order to not freak out.
+This does not make sense. So I load up the last X52EDBeyondNov19 renamed profile and I notice something.
+The name scrolling on the MFD is "X52EliteV330Beyond-Nov2019". This is the original file from which I copied all the others.
+So after having a brainfart, I clear the profiler, load up "X52EDBeyondNov19" (16chars), save it and push it to the x52.
+10 Minutes later it still hasn't blinked.
+Again cleared it out, loaded it up.
+Seems to work fine.
+
+Now why? My conclusion:
+The problem lies in the scrolling of the Profile name on the MFD.
+It seems that if this exceeds 16 characters, the maximum amount of characters before it starts scrolling, there is a powerloss/fluctuation somewhere which leads up to a number of things:
+- Sudden stick recalibration/reconnects.
+- Sudden button 'ghosting' or not being translated towards the game/application from the profiler.
+
+
+So Finally, a 'The' solution:
+If you have this specific issue, try renaming your Logitech X52 profile to something that is 16 characters or shorter. This is without the .pr0. It is 20 chars with the .pr0.
+Don't just copy/paste it! Open it up in the software and do a "Save As". As always, make sure you clear out the current used profile before you load the new one and load it up.
+
+
+[PC Specs]
+Windows 10 1806 Enterprise - fully updated.
+Logitech X52 Software Version: 8.0.213.0
+Logitech X52 Driver Version: 8.0.116.0
+Saitek X52 Flight System (Yes, the OG one.)
+
+
+[Also found in my X52 testing, but this is recalled from memory and don't feel like trying to reproduce these currently.]
+- if you load up an older profile or an profile for the x52pro in the software and do a save, it doesn't rewrite the device name to the current connected device.
+- if you load up an older profile or an profile for the x52pro in the software and do a save as, it doesn't rewrite the device name to the current connected device.
+- When you copy/paste a profile in windows explorer and then rename it and load it up, the MFD will still display the name of the profile it was copied from. The only way to fix this is to clear the profile from the software. Open the software, load it in, save it and push/load it again.
+- Sometimes, input does not get translated properly into the game. For instance: Buttons are not being recognized when you press them when assigning then in-game, but assigned with KB and set in profiler it works like it should.
+
+
+
+I've spend too much time on this...
+If Logitech ever wants to look into it: I'm pretty sure it's thanks to some Windows 10 update from somewhere begin this year (2019).
+
+
+[TLDR]
+Having a profile name longer then 20 characters, which makes the MFD scroll the profile name, makes the stick reconnect and recalibrate itself due to - I think - a power surge. Doesn't matter if the x52 is powered by a self-powered USB hub or not.
+
+
+o7 - CMDR Spliffz
