@@ -15,7 +15,7 @@
 	<MouseLinearity Value="1.00000000" />
 	<MouseGUI Value="0" />
 	<YawAxisRaw>
-		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
+		<Binding Device="X52Pro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawAxisRaw>
@@ -36,7 +36,7 @@
 		<ToggleOn Value="0" />
 	</YawToRollButton>
 	<RollAxisRaw>
-		<Binding Device="SaitekX52Pro" Key="Joy_XAxis" />
+		<Binding Device="X52Pro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.02000000" />
 	</RollAxisRaw>
@@ -49,7 +49,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</RollRightButton>
 	<PitchAxisRaw>
-		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
+		<Binding Device="X52Pro" Key="Joy_YAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.02000000" />
 	</PitchAxisRaw>
@@ -106,32 +106,32 @@
 		<ToggleOn Value="1" />
 	</UseAlternateFlightValuesToggle>
 	<YawAxisAlternate>
-		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
+		<Binding Device="X52Pro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawAxisAlternate>
 	<RollAxisAlternate>
-		<Binding Device="SaitekX52Pro" Key="Joy_XAxis" />
+		<Binding Device="X52Pro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RollAxisAlternate>
 	<PitchAxisAlternate>
-		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
+		<Binding Device="X52Pro" Key="Joy_YAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</PitchAxisAlternate>
 	<LateralThrustAlternate>
-		<Binding Device="SaitekX52Pro" Key="Joy_RYAxis" />
+		<Binding Device="X52Pro" Key="Joy_RYAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.03000000" />
 	</LateralThrustAlternate>
 	<VerticalThrustAlternate>
-		<Binding Device="SaitekX52Pro" Key="Joy_RXAxis" />
+		<Binding Device="X52Pro" Key="Joy_RXAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.03000000" />
 	</VerticalThrustAlternate>
 	<ThrottleAxis>
-		<Binding Device="SaitekX52Pro" Key="Joy_ZAxis" />
+		<Binding Device="X52Pro" Key="Joy_ZAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</ThrottleAxis>
@@ -388,7 +388,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ShipSpotLightToggle>
 	<RadarRangeAxis>
-		<Binding Device="SaitekX52Pro" Key="Joy_UAxis" />
+		<Binding Device="X52Pro" Key="Joy_UAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RadarRangeAxis>
@@ -642,7 +642,7 @@
 	<HeadlookMotionSensitivity Value="1.00000000" />
 	<yawRotateHeadlook Value="0" />
 	<CamPitchAxis>
-		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
+		<Binding Device="X52Pro" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamPitchAxis>
@@ -655,7 +655,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CamPitchDown>
 	<CamYawAxis>
-		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
+		<Binding Device="X52Pro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</CamYawAxis>
@@ -741,7 +741,7 @@
 	<MouseBuggyYMode Value="" />
 	<MouseBuggyYDecay Value="0" />
 	<SteeringAxis>
-		<Binding Device="SaitekX52Pro" Key="Joy_XAxis" />
+		<Binding Device="X52Pro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SteeringAxis>
@@ -754,7 +754,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SteerRightButton>
 	<BuggyRollAxisRaw>
-		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
+		<Binding Device="X52Pro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyRollAxisRaw>
@@ -767,7 +767,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyRollRightButton>
 	<BuggyPitchAxis>
-		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
+		<Binding Device="X52Pro" Key="Joy_YAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</BuggyPitchAxis>
@@ -822,7 +822,7 @@
 	<MouseTurretYMode Value="Bindings_MousePitch" />
 	<MouseTurretYDecay Value="1" />
 	<BuggyTurretYawAxisRaw>
-		<Binding Device="SaitekX52Pro" Key="Joy_XAxis" />
+		<Binding Device="X52Pro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretYawAxisRaw>
@@ -835,7 +835,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggyTurretYawRightButton>
 	<BuggyTurretPitchAxisRaw>
-		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
+		<Binding Device="X52Pro" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</BuggyTurretPitchAxisRaw>
@@ -851,7 +851,7 @@
 	<BuggyTurretMouseDeadzone Value="0.05000000" />
 	<BuggyTurretMouseLinearity Value="1.00000000" />
 	<DriveSpeedAxis>
-		<Binding Device="SaitekX52Pro" Key="Joy_ZAxis" />
+		<Binding Device="X52Pro" Key="Joy_ZAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</DriveSpeedAxis>
@@ -1147,7 +1147,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</FreeCamSpeedDec>
 	<MoveFreeCamY>
-		<Binding Device="SaitekX52Pro" Key="Joy_ZAxis" />
+		<Binding Device="X52Pro" Key="Joy_ZAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamY>
@@ -1204,7 +1204,7 @@
 	<PitchCameraMouse Value="" />
 	<YawCameraMouse Value="" />
 	<PitchCamera>
-		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
+		<Binding Device="X52Pro" Key="Joy_YAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</PitchCamera>
@@ -1219,7 +1219,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</PitchCameraDown>
 	<YawCamera>
-		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
+		<Binding Device="X52Pro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</YawCamera>
@@ -1233,7 +1233,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</YawCameraRight>
 	<RollCamera>
-		<Binding Device="SaitekX52Pro" Key="Joy_XAxis" />
+		<Binding Device="X52Pro" Key="Joy_XAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</RollCamera>
@@ -1286,12 +1286,12 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</StoreEnableRotation>
 	<StorePitchCamera>
-		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
+		<Binding Device="X52Pro" Key="Joy_YAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</StorePitchCamera>
 	<StoreYawCamera>
-		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
+		<Binding Device="X52Pro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</StoreYawCamera>
@@ -1320,7 +1320,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</CommanderCreator_Rotation_MouseToggle>
 	<CommanderCreator_Rotation>
-		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
+		<Binding Device="X52Pro" Key="Joy_RZAxis" />
 		<Inverted Value="1" />
 		<Deadzone Value="0.00000000" />
 	</CommanderCreator_Rotation>
@@ -1349,7 +1349,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalnetAudio_ClearQueue>
 	<ExplorationFSSCameraPitch>
-		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
+		<Binding Device="X52Pro" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraPitch>
@@ -1362,7 +1362,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationFSSCameraPitchDecreaseButton>
 	<ExplorationFSSCameraYaw>
-		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
+		<Binding Device="X52Pro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</ExplorationFSSCameraYaw>
@@ -1447,7 +1447,7 @@
 	<SAAThirdPersonMouseYDecay Value="0" />
 	<SAAThirdPersonMouseSensitivity Value="30.00000000" />
 	<SAAThirdPersonYawAxisRaw>
-		<Binding Device="SaitekX52Pro" Key="Joy_RZAxis" />
+		<Binding Device="X52Pro" Key="Joy_RZAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonYawAxisRaw>
@@ -1460,7 +1460,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</SAAThirdPersonYawRightButton>
 	<SAAThirdPersonPitchAxisRaw>
-		<Binding Device="SaitekX52Pro" Key="Joy_YAxis" />
+		<Binding Device="X52Pro" Key="Joy_YAxis" />
 		<Inverted Value="0" />
 		<Deadzone Value="0.00000000" />
 	</SAAThirdPersonPitchAxisRaw>

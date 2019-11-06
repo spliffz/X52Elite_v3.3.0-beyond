@@ -66,6 +66,9 @@ A: If you have this specific issue, try renaming your Logitech X52 profile to so
     Don't just copy/paste it! Open it up in the software and do a "Save As". As always, make sure you clear out the current used profile before you load the new one and load it up.
 Q: How come sometimes I have button ghosting?
 A: Make sure you clear out the current profile if you load up another.
+Q: I have a X52Pro but the Elite Bindings File is not being recognized!
+A: There is a small difference between Logitech and Saitek Controllers. Easy way is to open up any other .binds file you have in notepad/text editor and look for "	<Binding Device="X52Pro" ". Change that to what the other bindings file tells you.
+    For the Saitek X52 it is "SaitekX52", For the Saitek X52 Pro it is "X52Pro", This could be different on a Logitech Version.
 
 
 o7 - CMDR Spliffz
