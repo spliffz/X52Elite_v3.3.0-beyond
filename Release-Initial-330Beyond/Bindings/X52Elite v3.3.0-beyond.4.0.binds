@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="My Live binds for the X52 HOTAS" MajorVersion="4" MinorVersion="0">
+<Root PresetName="X52Elite v3.3.0-beyond" MajorVersion="4" MinorVersion="0">
 	<KeyboardLayout>en-US</KeyboardLayout>
 	<MouseXMode Value="" />
 	<MouseXDecay Value="0" />
