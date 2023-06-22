@@ -1,3 +1,8 @@
+[Now updated for V4.0]
+
+
+Below From Spliffz
+
 This is an update on the Saitek x52 Profile for Elite Dangerous originally made by /u/GangreneTVP.
 I used the profile myself for years now, but since I started playing Elite after the Beyond Update I decided to update it.
 That means that the new Full Spectrum Scanner and other new features like the Camera Suit are now included.
@@ -42,6 +47,9 @@ I use a Saitek X52 with the Logitech Software and so far it does what it needs t
 --------------------------------------------------------------
 
 [Changelog]
+  [Jun 2023
+    - Updated the bindings file to the newer V4.0 format required for ED Live
+
   [Nov 2019]
     - Made separate profiles for the X52 and the X52 Pro - Thanks to CMDR Sruliko for helping out with the X52Pro Profile!
     - Updated Logitech Software to 8.0.213.0 (Latest)
